@@ -1,5 +1,7 @@
-%h1 Chirpr
-%p
-  This is the home page for the
-  %a{href: 'https://www.railstutorial.org/'} Ruby on Rails Tutorial
-  sample application.
+.center.jumbotron
+  %h1 Chirpr
+  %h2
+    This is the home page for the
+    = link_to "Ruby on Rails Tutorial", "https://www.railstutorial.org/"
+    sample application.
+  = link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary"
