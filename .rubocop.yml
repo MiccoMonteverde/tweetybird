@@ -204,6 +204,9 @@ Style/LineEndConcatenation:
 Metrics/LineLength:
   Max: 160
 
+Metrics/BlockLength:
+  Enabled: false
+
 Metrics/MethodLength:
   Description: 'Avoid methods longer than 10 lines of code.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#short-methods'
